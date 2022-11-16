@@ -106,10 +106,20 @@ section{
         grid-gap:10px;
         justify-items: center;
         align-items: baseline;
+        .check{
+            grid-column-start:1;
+            grid-column-end:3;
+            padding-right: 90%;
+            width: 60%;
+            
+        }
         label{
+            display: inline;
             padding-left: 30%;
             padding-top: 10%;
             grid-column: 1/2;
+            
+            
         }
         input{
             font:20px solid white;
@@ -119,16 +129,12 @@ section{
             width: 60%;
             height: 40%;
         }
-        .check{
-            grid-column-start:1;
-            grid-column-start:3;
-            grid-column: 2/2;
-
-        }
+        
         .logbtn{    
             grid-column-start:1;
             grid-column-start:3;
             grid-column: 2/2;
+        
         }
         .regbtn{
           
