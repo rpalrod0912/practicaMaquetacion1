@@ -1,0 +1,160 @@
+@font-face {
+    font-family: 'blogger_sansbold';
+    src: url('fonts/fontkitBloggerSans/blogger_sans-bold-webfont.woff2') format('woff2'),
+         url('fonts/fontkitBloggerSans/blogger_sans-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'pokemon_solidnormal';
+    src: url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff2') format('woff2'),
+         url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    max-height: 40vh;
+    height: 100px;
+    a{
+        width: 20%;
+    }
+    .logo{
+        width: 40%;
+        padding: 10px;
+        padding-left: 30px;
+    }
+    .search{
+        width: 40%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+    }
+    .searchBar{
+        color: white;
+        width: 200px;
+        height: 30px;
+        border-radius: 15px;
+        background-color: black;
+    }
+    .logo-busq{
+        width: 40px;
+        height: 45px;
+        padding: 10px;
+    }
+    nav{
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        padding: 10px;
+        width: 45%;
+        align-items: flex-end;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .hamburguesa{
+        width: 30px;
+    }
+}
+
+section{
+    //Si no hay display Flex se puede usar un margin:0 auto
+    height: 100vh;
+    background-color: #8aaae5;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    h1{
+        text-align: center;
+        padding: 30px;
+        margin-bottom: 2rem;
+        font-size: 3rem;
+    }
+    button{
+        display: flex;
+        width: 10%;
+        margin-top: 3rem;
+
+    }     
+    height: 100vh;
+    form{
+        //Si no hay display Flex se puede usar un margin:0 auto
+        background-color: white;
+        border-radius: 30px;
+        width: 50%;
+        min-height: 400px;
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-gap:10px;
+        justify-items: center;
+        align-items: baseline;
+        label{
+            padding-left: 30%;
+            padding-top: 10%;
+            grid-column: 1/2;
+        }
+        input{
+            font:20px solid white;
+            background-color: #2D2A2A;
+            border-radius: 18px;
+            color: white;
+            width: 60%;
+            height: 40%;
+        }
+        .check{
+            grid-column-start:1;
+            grid-column-start:3;
+            grid-column: 2/2;
+
+        }
+        .logbtn{    
+            grid-column-start:1;
+            grid-column-start:3;
+            grid-column: 2/2;
+        }
+        .regbtn{
+          
+            width: 60%;
+        }
+        input,button{
+            grid-column: 2/2;            
+        }
+     }
+     .pikachuLogin{
+      
+        width: 20%;
+     }
+}
+
+footer{
+    background: #111;
+    height: 10%;
+    width: 100%;
+    color: #fff;
+    
+    img{
+        height: 80px;
+        width: auto;
+        padding: 5px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+}
