@@ -69,6 +69,17 @@ header{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
+        /* Clase transiciones CSS
+        .logina{
+            border-radius: 20px black;   
+            transition: background 0.4s linear;
+        }
+        .logina:hover{
+            padding-left: 8%;
+            background-color: black;
+            border-radius: 20px black;   
+            transition: background 2s linear;
+        }*/
     }
     .hamburguesa{
         width: 30px;
