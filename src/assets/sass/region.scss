@@ -1,73 +1,10 @@
-@font-face {
-    font-family: 'pokemon_solidnormal';
-    src: url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff2') format('woff2'),
-         url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import 'main.scss';
 
 *{
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-height: 40vh;
-    height: 100px;
-    a{
-        width: 20%;
-    }
-    .logo{
-        width: 40%;
-        padding: 10px;
-        padding-left: 30px;
-    }
-    .search{
-        width: 40%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .searchBar{
-        color: white;
-        width: 200px;
-        height: 30px;
-        border-radius: 15px;
-        background-color: black;
-    }
-    .logo-busq{
-        width: 40px;
-        height: 45px;
-        padding: 10px;
-    }
-    nav{
-        font-family: 'Inter', sans-serif;
-        display: flex;
-        padding: 10px;
-        width: 45%;
-        align-items: flex-end;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    ul{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .hamburguesa{
-        width: 30px;
-    }
-}
+
 
 .op1{
     display: flex;

@@ -1,19 +1,4 @@
-@font-face {
-    font-family: 'blogger_sansbold';
-    src: url('fonts/fontkitBloggerSans/blogger_sans-bold-webfont.woff2') format('woff2'),
-         url('fonts/fontkitBloggerSans/blogger_sans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pokemon_solidnormal';
-    src: url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff2') format('woff2'),
-         url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import 'main.scss';
 *{
     margin: 0;
     padding: 0;
@@ -194,19 +179,9 @@ section{
         }
    
         .signUp{   
-            color: #fff;
-            width: 30%;
-            height: auto;
-            background-color: #1fa61c;
-            border: 10px solid #1fa61c;
-            border-radius: 30px;
-            justify-content: center;
-            align-items: center;
             margin: auto auto 80px;
             /* padding-left: 1rem; */
             /* padding-right: 1rem; */
-            font-family: blogger_sansbold;
-            font-size: 3vw;
         }
         
         input,button{

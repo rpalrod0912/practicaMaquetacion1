@@ -1,90 +1,7 @@
 //WebKit obtenida en pagina https://www.fontsquirrel.com/tools/webfont-generator para generar fuente de Pokemon
-@font-face {
-    font-family: 'blogger_sansbold';
-    src: url('fonts/fontkitBloggerSans/blogger_sans-bold-webfont.woff2') format('woff2'),
-         url('fonts/fontkitBloggerSans/blogger_sans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pokemon_solidnormal';
-    src: url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff2') format('woff2'),
-         url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-}
-header{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-height: 40vh;
-    height: 100px;
-    a{
-        width: 20%;
-    }
-    .logo{
-        width: 40%;
-        padding: 10px;
-        padding-left: 30px;
-    }
-    .search{
-        width: 40%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .searchBar{
-        color: white;
-        width: 200px;
-        height: 30px;
-        border-radius: 15px;
-        background-color: black;
-    }
-    .logo-busq{
-        width: 40px;
-        height: 45px;
-        padding: 10px;
-    }
-    nav{
-        font-family: 'Inter', sans-serif;
-        display: flex;
-        padding: 10px;
-        width: 45%;
-        align-items: flex-end;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    ul{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        /* Clase transiciones CSS
-        .logina{
-            border-radius: 20px black;   
-            transition: background 0.4s linear;
-        }
-        .logina:hover{
-            padding-left: 8%;
-            background-color: black;
-            border-radius: 20px black;   
-            transition: background 2s linear;
-        }*/
-    }
-    .hamburguesa{
-        width: 30px;
-    }
-}
+@import 'main.scss';
+
 
 .secInicio{
         display: flex;
@@ -152,7 +69,7 @@ header{
     }
    
 }
-footer{
+/*footer{
         top:250%;
         left: 0%;
         right: 0%;
@@ -168,7 +85,7 @@ footer{
             padding-top: 20px;
             padding-left: 20px;
         }
-    }
+    }*/
     
 
 

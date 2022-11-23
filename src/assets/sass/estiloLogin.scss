@@ -1,78 +1,10 @@
-@font-face {
-    font-family: 'blogger_sansbold';
-    src: url('fonts/fontkitBloggerSans/blogger_sans-bold-webfont.woff2') format('woff2'),
-         url('fonts/fontkitBloggerSans/blogger_sans-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'pokemon_solidnormal';
-    src: url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff2') format('woff2'),
-         url('fonts/webfontkitPokemon/pokemon_solid-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import 'main.scss';
 
 *{
     margin: 0;
     padding: 0;
 }
-header{
-    background-color: white;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    max-height: 40vh;
-    height: 100px;
-    a{
-        width: 20%;
-    }
-    .logo{
-        width: 40%;
-        padding: 10px;
-        padding-left: 30px;
-    }
-    .search{
-        width: 40%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    .searchBar{
-        color: white;
-        width: 200px;
-        height: 30px;
-        border-radius: 15px;
-        background-color: black;
-    }
-    .logo-busq{
-        width: 40px;
-        height: 45px;
-        padding: 10px;
-    }
-    nav{
-        font-family: 'Inter', sans-serif;
-        display: flex;
-        padding: 10px;
-        width: 45%;
-        align-items: flex-end;
-        justify-content: space-around;
-        flex-direction: row;
-    }
-    ul{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-end;
-    }
-    .hamburguesa{
-        width: 30px;
-    }
-}
+
 
 section{
     //Si no hay display Flex se puede usar un margin:0 auto
@@ -80,6 +12,7 @@ section{
     flex-direction: column;
     justify-content: center;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     h1{
         font-family: 'pokemon_solidnormal';
@@ -138,20 +71,8 @@ section{
         }
         
         .logbtn{    
-            color: #fff;
-            /* width: 50%; */
-            /* max-width: 60%; */
-            /* height: 10vw; */
-            /* max-height: 10vw; */
-            background-color: #1fa61c;
-            border: 10px solid #1fa61c;
-            border-radius: 30px;
+            
             grid-column: 1 / 3;
-            justify-content: center;
-            align-items: center;
-            padding-left: 1rem;
-            padding-right: 1rem;
-            font-family: blogger_sansbold;
             font-size: 2vw;
         }
         
@@ -167,24 +88,7 @@ section{
         margin-top: 5%;
         padding-bottom: 1%;
     }
-    .regbtn{
-        color: #fff;
-        /* width: 50%; */
-        /* max-width: 60%; */
-        /* height: 10vw; */
-        /* max-height: 10vw; */
-        background-color: #1fa61c;
-        border: 10px solid #1fa61c;
-        border-radius: 30px;
-        grid-column: 1 / 3;
-        justify-content: center;
-        align-items: center;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        font-family: blogger_sansbold;
-        font-size: 2vw;
-
-    }
+    
      .pikachuLogin{
         padding-top: 10%;
         padding-bottom: 5%;
@@ -192,17 +96,3 @@ section{
      }
 }
 
-footer{
-    background: #111;
-    height: 10%;
-    width: 100%;
-    color: #fff;
-    
-    img{
-        height: 80px;
-        width: auto;
-        padding: 5px;
-        padding-top: 20px;
-        padding-left: 20px;
-    }
-}
