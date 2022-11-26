@@ -1,6 +1,13 @@
-@import '../sass/layout/header';
-@import '../sass/layout/footer';
-@import '../sass/components/logButon.scss';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'components/logButon.scss';
+@import 'views/estilo';
+@import 'views/estiloLogin';
+@import 'views/region';
+@import 'views/estiloContacto';
+@import 'views/registro';
+
+
 
 @font-face {
     font-family: 'blogger_sansbold';
