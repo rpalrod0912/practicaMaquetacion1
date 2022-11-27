@@ -45,12 +45,21 @@
                 
             }
         }
+        button{
+            font-size: 1.5vw;
+            position: relative;
+            top:20rem;
+            left: 18rem;
+            color: black;
+            background-color: white;
+            border: 10px solid white;   
+        }
         p,h1{
             position: relative;
             padding-left: 10%;
             top:15rem;
             font-size: 2vw;
-            width: 60%;
+            width: 70%;
 
 
         }
@@ -84,6 +93,16 @@
         font-size: 220%;
         left: 79px;
         
+    }
+    button{
+        font-size: 1.5vw;
+        position: relative;
+        top:20rem;
+        left: 60rem;
+        color: white;
+        background-color: black;
+        border: 10px solid black;   
+        left: 70%;
     }
     p,h1{
         position: relative;
