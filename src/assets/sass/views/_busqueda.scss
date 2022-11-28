@@ -1,0 +1,79 @@
+.pkDex{
+    background-color: #8aaae5;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    h1{
+        font-family: 'pokemon_solidnormal';
+        font-weight: normal;
+        letter-spacing: 0.18em;
+        text-align: center;
+        margin-bottom: 2rem;
+        margin-top: 3%;
+        font-size: 2.5vw;
+    }
+    .resultados{
+        border-radius: 25px 25px 0px 0px;
+        height: 100rem;
+        width: 80%;
+        background-color: #fff;
+    
+        //Div slider filtro
+        .filtro{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 25px 25px 0px 0px;
+            p{
+                padding-top: 2rem;
+                font-size: 2vw;
+                color: white;
+                font-family: 'blogger_sansbold';
+            }
+            img{
+                width: 2vw;   
+                transform: rotate(-90deg);
+            }
+            background-color:  #4E4E4E;
+        }   
+        //Resto del contenedor resultados
+        .cardsDex{
+            justify-content: center;
+            display:flex;
+            justify-content: space-around;
+            //Si el elemtno no cabe en la pantalla se coloca abajo
+            flex-wrap: wrap;
+            gap:1rem;
+        }
+        .cardPkm{
+            padding-top: 3vh;
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            font-family: 'blogger_sansbold';
+            font-size:1.3rem;
+            //Para ver lo que ocupa el elemto card
+            //background-color: tomato;
+            width: 15rem;
+            .circle{
+                background-color: #4E4E4E;
+                border-radius: 50%;
+                padding: 20px;
+            }
+            .dex1{
+                max-width: 100%;
+                width: 12rem;
+                height: 9rem;
+                
+            }
+            padding-bottom: 10%;
+            button{
+                font-size: 1vw;
+            }
+            
+        }
+    }
+}
